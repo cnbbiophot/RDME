@@ -1,4 +1,9 @@
-// Monte Carlo 3D simulations of mesoscopic reaction-diffusion kinetics 
+// Monte Carlo 3D simulations of mesoscopic reaction-diffusion kinetics
+As published in 
+Vesga et al. Quantitative characterization of membrane-protein reversible association using FCS.
+Biophysical Journal (2023), 122 (11), p2285-2300
+https://doi.org/10.1016/j.bpj.2023.01.026
+
 // Model interaction between A and V to produce AV 
 // A+V   <==> A1V
 // A+A1V <==> A2V
