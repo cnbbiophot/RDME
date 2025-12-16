@@ -1,17 +1,17 @@
-// Monte Carlo 3D simulations of mesoscopic reaction-diffusion kinetics
+# Monte Carlo 3D simulations of mesoscopic reaction-diffusion kinetics
 As published in 
-Vesga et al. Quantitative characterization of membrane-protein reversible association using FCS.
-Biophysical Journal (2023), 122 (11), p2285-2300
-https://doi.org/10.1016/j.bpj.2023.01.026
+Vesga, A.G. et al. *Quantitative characterization of membrane-protein reversible association using FCS*.
+Biophys. J., **122** (11), p2285-2300 (2023)
+[doi](https://doi.org/10.1016/j.bpj.2023.01.026)
 
-// Model interaction between A and V to produce AV 
-// A+V   <==> A1V
-// A+A1V <==> A2V
-// last modification : may 1 2022 LV lupevillegaslopez@gmail.com
-// The program outputs 3 files with the positions of all the particles at each event time 
-// "particlestimeEvolution.txt":           total number of particles of each specie:  t-A-V-A1V-A2V-...AmV
-// "timeParticlest.txt":                   the particle in a diffusion event at time t  : "particle-t-x-y-z-especie"
-// "timeEvolutionC.txt":                   the particle in a reaction event at time t  : "t-x-y-z-V-A-VA-reaction"
+Model interaction between A and V to produce AV 
+A+V   <==> A1V
+A+A1V <==> A2V
+last modification : may 1 2022 LV lupevillegaslopez@gmail.com
+The program outputs 3 files with the positions of all the particles at each event time 
+"particlestimeEvolution.txt":           total number of particles of each specie:  t-A-V-A1V-A2V-...AmV
+"timeParticlest.txt":                   the particle in a diffusion event at time t  : "particle-t-x-y-z-especie"
+"timeEvolutionC.txt":                   the particle in a reaction event at time t  : "t-x-y-z-V-A-VA-reaction"
 
 1. You need: mainRDME.c, parameters.txt, ran2.h
  >> make
