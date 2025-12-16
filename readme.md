@@ -3,22 +3,23 @@ As published in
 Vesga, A.G. et al. *Quantitative characterization of membrane-protein reversible association using FCS*.
 Biophys. J., **122** (11), p2285-2300 (2023) [doi](https://doi.org/10.1016/j.bpj.2023.01.026)
 
+## Description
 Model interaction between A and V to produce AV  
 A+V   <==> A1V  
 A+A1V <==> A2V  
-last modification : may 1 2022 LV lupevillegaslopez@gmail.com  
+
+## Output
 The program outputs 3 files with the positions of all the particles at each event time  
 "particlestimeEvolution.txt":           total number of particles of each specie:  t-A-V-A1V-A2V-...AmV  
 "timeParticlest.txt":                   the particle in a diffusion event at time t  : "particle-t-x-y-z-especie"  
 "timeEvolutionC.txt":                   the particle in a reaction event at time t  : "t-x-y-z-V-A-VA-reaction"  
 
-1. You need: mainRDME.c, parameters.txt, ran2.h
- 'make'
- './rdme'
-2. If you are using moore:
-   mainRDME.c, rdme.sh, parameters.txt, ran2.h, rdme.sh
- 'make'
- 'qsub rdme.sh'
+1. You need: mainRDME.c, parameters.txt, ran2.h  
+ 'make'  
+ './rdme'  
+2. If you are using moore: mainRDME.c, rdme.sh, parameters.txt, ran2.h, rdme.sh  
+ 'make'  
+ 'qsub rdme.sh'  
 
 Parameters:  
 -Total Number of particles of type A (Fab-free)  
