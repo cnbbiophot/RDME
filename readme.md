@@ -15,10 +15,10 @@ The program outputs 3 files with the positions of all the particles at each even
 "timeEvolutionC.txt":                   the particle in a reaction event at time t  : "t-x-y-z-V-A-VA-reaction"  
 
 1. You need: mainRDME.c, parameters.txt, ran2.h  
- `make` 
+ `make`  
  `./rdme`    
 2. If you are using moore: mainRDME.c, rdme.sh, parameters.txt, ran2.h, rdme.sh  
- `make` 
+ `make`  
  `qsub rdme.sh` 
 
 Parameters:  
